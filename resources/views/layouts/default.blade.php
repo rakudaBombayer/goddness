@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-    <title>@yield('title', 'ねこカフェららべる')</title>
+    <title>@yield('title', 'ららべる')</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
@@ -16,7 +16,7 @@
 <header>
     <div class="container px-4 mx-auto">
         <nav class="flex items-center justify-between py-6">
-            <a class="text-3xl font-semibold leading-none" href="/">ねこカフェららべる</a>
+            <a class="text-3xl font-semibold leading-none" href="/">ららべる</a>
             <ul class="hidden lg:flex ml-12 mr-auto space-x-12">
                 <li><a class="text-sm text-blueGray-400 hover:text-blueGray-500" href="#">設備</a></li>
                 <li><a class="text-sm text-blueGray-400 hover:text-blueGray-500" href="#">ねこちゃんたち</a></li>
