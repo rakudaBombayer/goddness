@@ -234,39 +234,4 @@
 
   </div>
 </section>
-
-
-{{-- <section id="access" class="mt-24 pb-24 bg-gray-100">
-  <div class="container mx-auto">
-    <p class="text-center pt-10 text-2xl">アクセス</p>
-    <h2 class="mt-2 font-bold font-heading text-center text-3xl h-24">ご来店をお待ちしております！</h2>
-    <div class="md:flex justify-center">
-      <div class="">
-        <img class="rounded mx-auto" src="/images/map.jpg" alt="">
-      </div>
-      <div class="text-left lg:ml-8 px-8">
-        <p class="font-bold text-3xl pb-5">ねこカフェららべる</p>
-        <dl>
-          <dt class="text-xl font-medium">営業時間</dt>
-          <dd class="pl-12 text-lg"><span class="mr-6">平日</span>11:00〜20:00<span class="ml-6">（L.O. 19:15）</span></dd>
-          <dd class="pl-12 text-lg"><span class="mr-1">土日祝 </span>11:00〜18:00<span class="ml-6">（L.O. 17:15）</span></dd>
-          <dt class="mt-5 text-xl font-medium">住所</dt>
-          <dd class="text-lg pl-12">〒123-4567<br>東京都墨田区押上1-2-3 ●●ビル▲F</dd>
-          <dt class="mt-5 text-xl font-medium">最寄り駅から</dt>
-          <dd class="pl-12 text-lg">とうきょうスカイツリー駅<span class="ml-6">徒歩5分</span></dd>
-        </dl>
-      </div>
-    </div>
-  </div>
-
-  <div class="flex mx-auto bg-white py-4 mt-10 md:w-192">
-    <div class="text-left mx-auto">
-      <p class="text-lg">なにかあればお気軽にお問い合わせください！</p>
-      <p><a href="#" class="text-blue-600 hover:underline">よくあるご質問</a>もご用意しています</p>
-    </div>
-    <div class="mx-auto">
-      <a href="/contact" class="inline-block text-xs text-white font-semibold leading-none rounded py-4 text-blue-700 border-solid bg-white border-blue-700 border-2 px-16 hover:text-white hover:bg-blue-700">お問い合わせ</a>
-    </div>
-  </div>
-</section> --}}
 @endsection
