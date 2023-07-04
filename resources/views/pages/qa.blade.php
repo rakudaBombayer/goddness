@@ -4,10 +4,11 @@
 <section class="mt-24">
     <div class="container mx-auto">
         <h2 class="mt-2 font-bold font-heading text-center text-3xl">よくある質問</h2>
+        <div class="my-8 pb-4 border-b"></div>
 
 <section class="bg-white dark:bg-gray-900">
     <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
-        <div class="grid pt-8 text-left border-t border-gray-200 md:gap-16 dark:border-gray-700 md:grid-cols-2">
+        <div class="grid text-left md:gap-16 md:grid-cols-2">
             <div>
                 <div class="mb-10">
                     <h3 class="flex items-center mb-4 text-lg font-medium text-gray-900 dark:text-white">
