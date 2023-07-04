@@ -21,6 +21,9 @@ Route::get('/', function () {
     return view('index');
 });
 
+Route::get('/anken', function () {
+    return view('pages/anken');
+});
 
 // お問い合わせ
 Route::get('/contact',[ContactController::class, 'index'])->name(name:'contact');
