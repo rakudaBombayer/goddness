@@ -25,6 +25,26 @@ Route::get('/anken', function () {
     return view('pages/anken');
 });
 
+Route::get('/manabu', function () {
+    return view('pages/manabu');
+});
+
+Route::get('/teikei', function () {
+    return view('pages/teikei');
+});
+
+Route::get('/howto', function () {
+    return view('pages/howto');
+});
+
+Route::get('/qa', function () {
+    return view('pages/qa');
+});
+
+Route::get('/invite', function () {
+    return view('pages/invite');
+});
+
 // お問い合わせ
 Route::get('/contact',[ContactController::class, 'index'])->name(name:'contact');
 Route::post('/contact',[ContactController::class, 'sendMail']);

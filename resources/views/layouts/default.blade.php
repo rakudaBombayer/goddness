@@ -19,15 +19,15 @@
             <a class="text-3xl font-semibold leading-none" href="/">Streamer Cloud</a>
 
             <ul class="hidden lg:flex ml-12 mr-auto space-x-12">
-                <li><a class="text-sm text-blueGray-400 hover:text-blueGray-500" href="#">案件・イベント</a></li>
-                <li><a class="text-sm text-blueGray-400 hover:text-blueGray-500" href="#">学ぶ</a></li>
-                <li><a class="text-sm text-blueGray-400 hover:text-blueGray-500" href="/blogs">提携サービス</a></li>
-                <li><a class="text-sm text-blueGray-400 hover:text-blueGray-500" href="#">使い方</a></li>
-                <li><a class="text-sm text-blueGray-400 hover:text-blueGray-500" href="#">よくある質問</a></li>
+                <li><a class="text-sm text-blueGray-400 hover:text-blueGray-500" href="/anken">案件・イベント</a></li>
+                <li><a class="text-sm text-blueGray-400 hover:text-blueGray-500" href="/manabu">学ぶ</a></li>
+                <li><a class="text-sm text-blueGray-400 hover:text-blueGray-500" href="/teikei">提携サービス</a></li>
+                <li><a class="text-sm text-blueGray-400 hover:text-blueGray-500" href="/howto">使い方</a></li>
+                <li><a class="text-sm text-blueGray-400 hover:text-blueGray-500" href="/qa">よくある質問</a></li>
             </ul>
             <div>
                 <a class="mr-2 inline-block px-4 py-3 text-xs text-blue-500 hover:text-blue-600 leading-none border border-blue-200 hover:border-blue-300 rounded" href="/contact">お問い合わせ</a>
-                <a class="inline-block px-4 py-3 text-xs font-semibold leading-none bg-blue-500 hover:bg-blue-600 text-white rounded" href="/#access">友達招待</a>
+                <a class="inline-block px-4 py-3 text-xs font-semibold leading-none bg-blue-500 hover:bg-blue-600 text-white rounded" href="/invite">友達招待</a>
             </div>
         </nav>
     </div>
