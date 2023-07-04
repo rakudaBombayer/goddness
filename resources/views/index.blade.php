@@ -26,7 +26,7 @@
       <div class="bg-gray-100 rounded shadow">
         <div class="flex py-10 px-6">
           <img class="w-20 h-20 object-cover rounded-full" src="/images/index/live.jpg" alt="">
-          <div class="ml-4 w-56">
+          <div class="ml-4">
             <h3 class="mb-1 text-2xl font-heading text-left text-blue-500">１：案件やイベントに応募できる</h3>
             <p class="text-left text-gray-500 text-sm">Streamer Cloudが企業案件をご紹介！さらに、Streamer Cloudが主催するオフラインイベントにも参加申し込み（抽選）可能！</p>
           </div>
@@ -38,7 +38,7 @@
       <div class="bg-gray-100 rounded shadow">
         <div class="flex py-10 px-6">
           <img class="w-20 h-20 object-cover rounded-full" src="/images/index/book.jpg" alt="">
-          <div class="ml-4 w-56">
+          <div class="ml-4">
             <h3 class="mb-1 text-2xl font-heading text-left text-blue-500">２：Streamer図鑑に掲載される</h3>
             <p class="text-left text-gray-500 text-sm">「Streamer 図鑑」（WebサイトおよびYoutubeチャンネル）に掲載！限定ユニットの人気が出れば公式デビューも！？</p>
           </div>
@@ -50,7 +50,7 @@
       <div class="bg-gray-100 rounded shadow">
         <div class="flex py-10 px-6">
           <img class="w-20 h-20 object-cover rounded-full" src="/images/index/learning.jpg" alt="">
-          <div class="ml-4 w-56">
+          <div class="ml-4">
             <h3 class="mb-1 text-2xl font-heading text-left text-blue-500">３：割引やセミナーを受けられる</h3>
             <p class="text-left text-gray-500 text-sm">Streamer Cloudが運営する「Streamer大学」の講義が受け放題！さらに、提携企業から器材などの割引も受けられます！</p>
           </div>
