@@ -2,14 +2,16 @@
 @section('title', 'トップページ')
 
 @section('content')
-<section class="bg-gray-100">
+<section class="" style="background: url(/images/index/top.jpg) no-repeat center;">
   <div class="container mx-auto py-40 relative">
-    <h1 class="mt-2 text-4xl font-bold font-heading text-center">Streamer Cloudとは？</h1>
-    <p class="text-center pt-5">個人Stremerを支援するクラウド事務所です。<br>
-      登録したチャンネル情報はStreamer図鑑に登録されます。<br>
-    {{-- <div class="absolute right-0 bottom-0 transform translate-y-16">
-      <a href="#"><img src="/images/index/video.jpg" alt="" class="shadow-lg"></a>
-    </div> --}}
+    <div class="bg-white bg-opacity-75 p-8">
+      <h1 class="mt-2 text-4xl font-bold font-heading text-center">Streamer Cloudとは？</h1>
+      <p class="text-center pt-5">個人Stremerを支援するクラウド事務所です。<br>
+        登録したチャンネル情報はStreamer図鑑に登録されます。<br>
+      {{-- <div class="absolute right-0 bottom-0 transform translate-y-16">
+        <a href="#"><img src="/images/index/video.jpg" alt="" class="shadow-lg"></a>
+      </div> --}}
+    </div>
   </div>
 </section>
 
@@ -23,8 +25,8 @@
     <div class="w-full lg:w-1/3 p-3">
       <div class="bg-gray-100 rounded shadow">
         <div class="flex py-10 px-6">
-          <img class="w-20 h-20 object-cover rounded-full" src="/images/index/foliage-plant.jpg" alt="">
-          <div class="ml-4 w-56">
+          <img class="w-20 h-20 object-cover rounded-full" src="/images/index/live.jpg" alt="">
+          <div class="ml-4">
             <h3 class="mb-1 text-2xl font-heading text-left text-blue-500">１：案件やイベントに応募できる</h3>
             <p class="text-left text-gray-500 text-sm">Streamer Cloudが企業案件をご紹介！さらに、Streamer Cloudが主催するオフラインイベントにも参加申し込み（抽選）可能！</p>
           </div>
@@ -35,8 +37,8 @@
     <div class="w-full lg:w-1/3 p-3">
       <div class="bg-gray-100 rounded shadow">
         <div class="flex py-10 px-6">
-          <img class="w-20 h-20 object-cover rounded-full" src="/images/index/sanitizer.jpg" alt="">
-          <div class="ml-4 w-56">
+          <img class="w-20 h-20 object-cover rounded-full" src="/images/index/book.jpg" alt="">
+          <div class="ml-4">
             <h3 class="mb-1 text-2xl font-heading text-left text-blue-500">２：Streamer図鑑に掲載される</h3>
             <p class="text-left text-gray-500 text-sm">「Streamer 図鑑」（WebサイトおよびYoutubeチャンネル）に掲載！限定ユニットの人気が出れば公式デビューも！？</p>
           </div>
@@ -47,8 +49,8 @@
     <div class="w-full lg:w-1/3 p-3">
       <div class="bg-gray-100 rounded shadow">
         <div class="flex py-10 px-6">
-          <img class="w-20 h-20 object-cover rounded-full" src="/images/index/health-check.jpg" alt="">
-          <div class="ml-4 w-56">
+          <img class="w-20 h-20 object-cover rounded-full" src="/images/index/learning.jpg" alt="">
+          <div class="ml-4">
             <h3 class="mb-1 text-2xl font-heading text-left text-blue-500">３：割引やセミナーを受けられる</h3>
             <p class="text-left text-gray-500 text-sm">Streamer Cloudが運営する「Streamer大学」の講義が受け放題！さらに、提携企業から器材などの割引も受けられます！</p>
           </div>
@@ -96,7 +98,7 @@
         <div class="border rounded-lg overflow-hidden shadow">
           <div class="relative h-52">
             <span class="absolute text-xs text-gray-400 px-2 border border-white bg-gray-100 uppercase py-2 px-10 left-0 bottom-0">オフラインイベント</span>
-            <a href="#"><img class="w-full h-full object-cover" src="/images/placeholders/blogs/lunch.jpeg" alt=""></a>
+            <a href="#"><img class="w-full h-full object-cover" src="/images/placeholders/blogs/guitar.jpg" alt=""></a>
             <time class="text-xs text-gray-500 text-right pr-2 pt-2">2023.7.5</time>
           </div>
           <div class="pt-2 pb-4 px-4">
@@ -118,7 +120,7 @@
         <div class="border rounded-lg overflow-hidden shadow">
           <div class="relative h-52">
             <span class="absolute text-xs text-gray-400 px-2 border border-white bg-gray-100 uppercase py-2 px-10 left-0 bottom-0">企業案件</span>
-            <a href="#"><img class="w-full h-full object-cover" src="/images/placeholders/blogs/working.jpeg" alt=""></a>
+            <a href="#"><img class="w-full h-full object-cover" src="/images/placeholders/blogs/majan.jpg" alt=""></a>
             <time class="text-xs text-gray-500 text-right pr-2 pt-2">2023.7.5</time>
           </div>
           <div class="pt-2 pb-4 px-4">
@@ -140,7 +142,7 @@
         <div class="border rounded-lg overflow-hidden shadow">
           <div class="relative h-52">
             <span class="absolute text-xs text-gray-400 px-2 border border-white bg-gray-100 uppercase py-2 px-10 left-0 bottom-0">オーディション</span>
-            <a href="#"><img class="w-full h-full object-cover" src="/images/placeholders/blogs/toilet.jpeg" alt=""></a>
+            <a href="#"><img class="w-full h-full object-cover" src="/images/placeholders/blogs/cat.jpg" alt=""></a>
             <time class="text-xs text-gray-500 text-right pr-2 pt-2">2023.7.5</time>
           </div>
           <div class="pt-2 pb-4 px-4">
@@ -188,7 +190,7 @@
         <div class="border rounded-lg overflow-hidden shadow">
           <div class="relative h-52">
             <span class="absolute text-xs text-gray-400 px-2 border border-white bg-gray-100 uppercase py-2 px-10 left-0 bottom-0">税金・申告</span>
-            <a href="#"><img class="w-full h-full object-cover" src="/images/placeholders/blogs/lunch.jpeg" alt=""></a>
+            <a href="#"><img class="w-full h-full object-cover" src="/images/placeholders/blogs/zeimu.jpg" alt=""></a>
             <time class="text-xs text-gray-500 text-right pr-2 pt-2">2023.7.5</time>
           </div>
           <div class="pt-2 pb-4 px-4">
@@ -210,7 +212,7 @@
         <div class="border rounded-lg overflow-hidden shadow">
           <div class="relative h-52">
             <span class="absolute text-xs text-gray-400 px-2 border border-white bg-gray-100 uppercase py-2 px-10 left-0 bottom-0">タスク管理</span>
-            <a href="#"><img class="w-full h-full object-cover" src="/images/placeholders/blogs/working.jpeg" alt=""></a>
+            <a href="#"><img class="w-full h-full object-cover" src="/images/placeholders/blogs/work.jpg" alt=""></a>
             <time class="text-xs text-gray-500 text-right pr-2 pt-2">2023.7.5</time>
           </div>
           <div class="pt-2 pb-4 px-4">
@@ -232,7 +234,7 @@
         <div class="border rounded-lg overflow-hidden shadow">
           <div class="relative h-52">
             <span class="absolute text-xs text-gray-400 px-2 border border-white bg-gray-100 uppercase py-2 px-10 left-0 bottom-0">炎上対策</span>
-            <a href="#"><img class="w-full h-full object-cover" src="/images/placeholders/blogs/toilet.jpeg" alt=""></a>
+            <a href="#"><img class="w-full h-full object-cover opacity-75" src="/images/placeholders/blogs/fire.jpg" alt=""></a>
             <time class="text-xs text-gray-500 text-right pr-2 pt-2">2023.7.5</time>
           </div>
           <div class="pt-2 pb-4 px-4">
@@ -280,7 +282,7 @@
         <div class="border rounded-lg overflow-hidden shadow">
           <div class="relative h-52">
             <span class="absolute text-xs text-gray-400 px-2 border border-white bg-gray-100 uppercase py-2 px-10 left-0 bottom-0">専門家相談</span>
-            <a href="#"><img class="w-full h-full object-cover" src="/images/placeholders/blogs/lunch.jpeg" alt=""></a>
+            <a href="#"><img class="w-full h-full object-cover" src="/images/placeholders/blogs/coin.jpg" alt=""></a>
             <time class="text-xs text-gray-500 text-right pr-2 pt-2">2023.7.5</time>
           </div>
           <div class="pt-2 pb-4 px-4">
@@ -302,7 +304,7 @@
         <div class="border rounded-lg overflow-hidden shadow">
           <div class="relative h-52">
             <span class="absolute text-xs text-gray-400 px-2 border border-white bg-gray-100 uppercase py-2 px-10 left-0 bottom-0">Webサービス</span>
-            <a href="#"><img class="w-full h-full object-cover" src="/images/placeholders/blogs/working.jpeg" alt=""></a>
+            <a href="#"><img class="w-full h-full object-cover" src="/images/placeholders/blogs/app.jpg" alt=""></a>
             <time class="text-xs text-gray-500 text-right pr-2 pt-2">2023.7.5</time>
           </div>
           <div class="pt-2 pb-4 px-4">
@@ -324,7 +326,7 @@
         <div class="border rounded-lg overflow-hidden shadow">
           <div class="relative h-52">
             <span class="absolute text-xs text-gray-400 px-2 border border-white bg-gray-100 uppercase py-2 px-10 left-0 bottom-0">その他割引</span>
-            <a href="#"><img class="w-full h-full object-cover" src="/images/placeholders/blogs/toilet.jpeg" alt=""></a>
+            <a href="#"><img class="w-full h-full object-cover" src="/images/placeholders/blogs/device.jpg" alt=""></a>
             <time class="text-xs text-gray-500 text-right pr-2 pt-2">2023.7.5</time>
           </div>
           <div class="pt-2 pb-4 px-4">
